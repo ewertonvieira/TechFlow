@@ -12,9 +12,14 @@
     <div class="container-form">
         <form action="" method="post">
             <div>
-                <h2>Login</h2>
+                <h2>Criar Conta</h2>
             </div>
             
+            <div class="form-label">
+                <label for="email">Nome</label>
+                <input type="text" name="email" id="nome" placeholder="Digite o nome" required>
+            </div>
+
             <div class="form-label">
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email" placeholder="Digite o email" required>
@@ -25,12 +30,14 @@
                 <input type="password" name="password" id="password" placeholder="Digite a sua senha" required>
             </div>
 
-            <div class="form-button">
-                <button type="submit" name="login" id="login">Entrar</button>
-                <a href="#">Esqueceu sua senha?</a>
+            <div class="form-label">
+                <label for="password">Confirmar Senha</label>
+                <input type="password" name="password" id="password" placeholder="Confirme a sua senha" required>
             </div>
+
             <div class="form-button">
-               <a href="#" id="form-link">Criar Conta</a> 
+                <button type="submit" name="login" id="login">Criar</button>
+                <a href="#">Ja tem uma conta?</a>
             </div>
             
         </form>
